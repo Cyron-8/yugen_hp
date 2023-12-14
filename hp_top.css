@@ -1,0 +1,70 @@
+body{
+    /* background-image:url(image/YUGE_background.png); */
+    background-image:url(image/top/背景.png);
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.top_section{
+    width: 100%;
+}
+
+.main_section_top img{
+    width: 100%;
+    vertical-align: top;
+
+}
+
+.main_section_top_pearent{
+    position: relative;
+}
+
+.main_section_top_title{
+    position: absolute;
+    top: 19.35%;
+    /* 実際の位置に応じて調整する 155/801 ≈ 19.35%*/
+    left: 84.44%;
+    /* 実際の位置に応じて調整する 1216/1440 ≈ 84.44%*/
+    white-space: nowrap;
+    /* テキストを折り返さない */
+
+    font-family: Shippori Mincho;
+    color: #E5EAEC;
+    /* テキストの色 */
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+
+    text-transform: uppercase;
+
+    writing-mode: vertical-rl;
+
+    line-height: 2.0;
+    letter-spacing: 0.25em;
+}
+
+/* 分割するための大本設定 */
+.top_section_sub{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* コンテナとして4分割する */
+.gallery_item{
+    flex: 1;
+    width: 25%;
+}
+
+/* 分割された後の画像設定 */
+.gallery_item img {
+    width: 100%;
+    height: 80%;
+    display: block;
+  }
