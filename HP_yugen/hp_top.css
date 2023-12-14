@@ -1,0 +1,298 @@
+body{
+    /* background-image:url(image/YUGE_background.png); */
+    background-image:url(image/top/背景.png);
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+
+
+/* ーーーーーーーーーーーーーーーーーーーーーーーー　ナビゲーションバー　ーーーーーーーーーーーーーーーーーーーーーーーー */
+.navbar {
+    display: flex;
+    align-items: center;
+
+    /* padding: 47px 62.5px 31px 39px; */
+    height: 160px;
+
+    background: #DED5C6;
+
+    gap: 45px;
+}
+
+.navbar-logo-img {
+
+    width: 65.396px;
+    height: 81.143px;
+
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+    color: var(--yugen, #383838);
+
+    font-family: Didact Gothic;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 38.4px */
+}
+
+.navbar-menu li {
+    margin: 0 32px 0 0;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: #333;
+    /* リンクの色を調整してください */
+}
+
+
+/* ーーーーーー左右分けーーーーーー */
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    /* フレックスボックスとして表示 */
+}
+
+.navbar-left {
+    flex: 1;
+    /* 利用可能なスペースをすべて埋めるようにする */
+}
+
+.navbar-right {
+    /* 必要に応じて右寄せのためのスタイルをここに追加 */
+}
+
+
+/* ーーーーーー検索、カートーーーーーー */
+
+.navbar-icons {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-icons a {}
+
+.search-icon {
+    margin-right: 18px;
+}
+
+
+/* ショッピングカートアイコンに適用される追加のスタイル */
+.shopping-cart-icon {
+    position: relative;
+}
+
+.shopping-cart-icon::after {
+    content: '•';
+    color: red;
+    /* 通知の色は赤ですが、必要に応じて変更してください */
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    font-size: 24px;
+    /* サイズは適宜調整してください */
+}
+
+
+.search-icon-img {
+    width: 39px;
+    height: 39px;
+}
+
+.shopping-cart-icon-img {
+    width: 39px;
+    height: 39px;
+}
+
+
+
+
+
+
+/* ーーーーーーーーーーーーーーーーーーーーーーーー　ーーーーーーーーーーーーーーーーーーーーーーーー */
+
+
+
+/* ファーストセクションtop */
+.top_section{
+    width: 100%;
+}
+
+.main_section_top img{
+    width: 100%;
+    vertical-align: top;
+
+}
+
+.main_section_top_pearent{
+    position: relative;
+}
+
+.main_section_top_title{
+    position: absolute;
+    top: 19.35%;
+    /* 実際の位置に応じて調整する 155/801 ≈ 19.35%*/
+    left: 84.44%;
+    /* 実際の位置に応じて調整する 1216/1440 ≈ 84.44%*/
+    white-space: nowrap;
+    /* テキストを折り返さない */
+
+    font-family: Shippori Mincho;
+    color: #E5EAEC;
+    /* テキストの色 */
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+
+    text-transform: uppercase;
+
+    writing-mode: vertical-rl;
+
+    line-height: 2.0;
+    letter-spacing: 0.25em;
+}
+
+/* 分割するための大本設定 */
+.top_section_sub{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* コンテナとして4分割する */
+.gallery_item{
+    flex: 1;
+    width: 25%;
+}
+
+/* 分割された後の画像設定 */
+.gallery_item img {
+    width: 100%;
+    height: 80%;
+    display: block;
+  }
+
+
+/* section1 */
+.yugen_section_1{
+    position: relative;
+    margin-top: 180px;
+    padding: 0 80px 0 80px;
+    
+}
+
+.yugen_section_1 .sec1_title{
+    /* padding: 0 0 70px 22%; */
+    padding: 0 0 70px 228px;
+
+    text-align: center;
+
+
+}
+
+.yugen_section_1 .sec1_title p{
+    margin: 0 0;
+    /* width: 21%; */
+    width:264px;
+    height: 77px;
+    border-bottom: 2px solid #AD002D;
+    /* font-size: 48px; */
+    font-size: 48px;
+    font-style: normal;
+
+}
+
+.yugen_section_1 img{
+    position: absolute;
+    top: 77px;
+    /* left: calc(609 / 1440 * 100%); */
+    left:610px;
+    width: calc(100% - (609 / 1440 * 100%)); 
+}
+
+
+.yugen_section_1 .sec1_back{
+    background: rgba(248, 249, 250, 0.66);
+    height: 681px;
+}
+
+.yugen_section_1 .sec1_text{
+    /* width: 40%; */
+    width: 480px;
+    /* font-family: Shippori Mincho; */
+    line-height: 250%;
+    padding: 150px 0 100px 20px;
+}
+
+
+/* section2 */
+
+.products-section {
+    margin-top: 220px;
+    background-size: cover;
+    /* padding: 2em; */
+    text-align: center;
+}
+.product-header {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    padding: 1em;
+}
+.product-item {
+    border: 1px solid #ccc;
+    padding: 1em;
+    background-color: #fff;
+}
+.product-image {
+    width: 100%;
+    height: auto;
+}
+.product-name {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+.product-price {
+    font-size: 1em;
+    margin: 0.5em 0;
+}
+.add-to-cart {
+    padding: 0.5em 1em;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 0.5em;
+}
+.view-all {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    display: block;
+    margin-top: 1em;
+}
+
+
+.space{
+    margin: 300px 0;
+}
