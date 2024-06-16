@@ -1,0 +1,49 @@
+
+.tw1_artist {
+    max-width: 1080px;
+    margin: 60px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap; /* 要素を折り返す */
+    justify-content: flex-start; 
+}
+
+.tw1_artist_panel {
+    width: 30%;
+    height: 250px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    margin: 20px 0;
+    margin-left:3% ;
+    background-color: #faf0db;
+    border-radius: 7px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* はみ出しを隠す */
+    /* background-color: #ebe8dc; */
+
+}
+
+.tw1_artist-container {
+    width: 200px;
+    height: 300px;
+}
+
+.tw1_artist-panel a {
+    display: flex;
+    text-decoration: none; /* デフォルトのリンクの装飾を消す */
+    color: inherit; /* 親要素の色を継承 */
+    height: inherit;
+  }
+
+
+.tw1_artist-img-container {
+    height: 170px;
+}
+
+
+
+.tw1_artist-img-container img{
+
+    height: 100%;
+
+}
