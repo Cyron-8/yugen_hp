@@ -1,0 +1,171 @@
+
+
+body {
+    background-color: #dfdcd8;
+    /* background-color: #faf0db; */
+
+    margin: 0;
+    padding: 0;
+}
+
+/* 基本設定 */
+/* .tw_section {
+    
+
+} */
+
+
+.tw_section-text {
+    margin: 30px 0;
+}
+
+.tw_section-title {
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.tw_section-title h2 {
+    font-size: 1.21429em;
+    font-family: "Yuji Syuku", serif;
+    color: #666;
+}
+
+
+
+.tw_artist {
+    max-width: 1140px;
+    margin: 60px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap; /* 要素を折り返す */
+    justify-content: flex-start; 
+    
+}
+
+.tw_panel_detail {
+    max-width:173px;
+}
+
+
+
+
+
+
+
+/* 作家紹介セクション */
+
+
+
+.tw_panel {
+    /* max-width: 346px; */
+    width: 30%;
+    height: 250px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    margin: 20px 0;
+    margin-left:3% ;
+    background-color: #faf0db;
+    border-radius: 7px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* はみ出しを隠す */
+    /* background-color: #ebe8dc; */
+
+    
+}
+
+.tw_panel a {
+    display: flex;
+    text-decoration: none; /* デフォルトのリンクの装飾を消す */
+    color: inherit; /* 親要素の色を継承 */
+    height: inherit;
+  }
+
+/* .tw_image-container {
+    margin-bottom: 20px;
+} */
+
+.tw_image-container img {
+    max-width: 100%;
+    /* border-radius: 8px; */
+    height: auto; /* 画像の高さを自動調整 */
+    object-fit: cover; /* 画像をボックスに合わせてカバーする */
+}
+
+.tw_text-container {
+    
+    margin: auto 0;
+    width: 100%;
+    
+}
+
+.tw_artist-name h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000;
+    font-family: "Yuji Syuku", serif;
+}
+
+.tw_artist-text p {
+    display: none;
+    font-size: 16px;
+    color: #666;
+    font-family: "Yuji Syuku", serif;
+}
+
+.tw_artist {
+    display: none;
+}
+
+
+/* 商品セクション------------------------------------------------------------ */
+
+.tw_product {
+    width: 100%;
+    margin-top: 60px;
+
+}
+
+
+
+
+.tw_product-items {
+    margin-top: 80px;
+    width: inherit;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: flex-start; 
+}
+
+.tw_product-item {
+    width: 24.5vw;
+    height: 24.5vw;
+    
+    
+}
+
+
+.tw_product-item_link {
+    width: inherit;
+    height: inherit;
+
+    
+
+}
+
+.tw_item-image-container {
+    width: inherit;
+    height: inherit;
+
+
+}
+
+
+.tw_item-image-container img{
+    max-width: 100%;
+    
+}
+
+
+
