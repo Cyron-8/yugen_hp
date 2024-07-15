@@ -2,6 +2,7 @@
 
 body {
     background-color: #dfdcd8;
+    background-image: url("https://cdn.shopify.com/s/files/1/0057/1044/6665/files/SR7.5_430x.png?v=1708075579");
     /* background-color: #faf0db; */
 
     margin: 0;
@@ -45,55 +46,6 @@ body {
 
 
 
-
-
-/* 商品セクション------------------------------------------------------------ */
-
-.tw_product {
-    width: 100%;
-    margin-top: 60px;
-
-}
-
-
-
-
-.tw_product-items {
-    margin-top: 80px;
-    width: inherit;
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: flex-start; 
-}
-
-.tw_product-item {
-    width: 24.5vw;
-    height: 24.5vw;
-    
-    
-}
-
-
-.tw_product-item_link {
-    width: inherit;
-    height: inherit;
-
-    
-
-}
-
-.tw_item-image-container {
-    width: inherit;
-    height: inherit;
-
-
-}
-
-
-.tw_item-image-container img{
-    max-width: 100%;
-    
-}
 
 
 

@@ -3,7 +3,8 @@
 
 
 .tw_container {
-    max-width: 1080px;
+    max-width: 1180px;
+    /* max-width: 96%; */
     margin: 0 auto;
     margin-bottom: 100px;
 }
@@ -18,17 +19,23 @@
 
 .tw-artist {
     position: relative;
-    margin: 4px;
+    margin: 5px;
+    /* margin: 0.5rem 0.5rem; */
     overflow: hidden;
-    width: calc((100% - 32px) / 4);
+    width: calc((100% - 32px) / 3);
     
 }
 
 .tw-artist a {
     display: block;
+    margin: 5px 5px;
 }
 
 .artist-detail-template {
+    display: none;
+}
+
+.tw_none-disp {
     display: none;
 }
 
@@ -44,16 +51,33 @@
 }
 
 .tw_section-title h2 {
-    font-size: 1.21429em;
+    font-size: 1.6em;
     /* font-family: "Yuji Syuku", serif; */
     color: #666;
 }
 
 
 
+/* トップ写真--------------------- */
+
+.tw_top {
+    max-width: 100%;
+    margin-top: 30px;
+    margin-bottom:60px;
+}
+
+.tw_top img{
+    width: 100%;
+}
+
+
 
 
 /* レイヤー１---------------------------------------------- */
+
+.layer1 {
+    position: relative;
+}
 
 .layer1-desc {
     position: absolute;
@@ -117,17 +141,6 @@
 
 
 
-/* トップ写真--------------------- */
-
-.tw_top {
-    max-width: 100%;
-    margin-top: 30px;
-    margin-bottom:60px;
-}
-
-.tw_top img{
-    width: 100%;
-}
 
 
 
@@ -162,6 +175,10 @@
     }
 
     .artist-detail-template {
+        display: none;
+    }
+
+    .tw_none-disp {
         display: none;
     }
 
